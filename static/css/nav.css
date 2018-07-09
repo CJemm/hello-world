@@ -1,0 +1,62 @@
+nav {
+	width: 100%;
+	background: #444;
+	font-size: 13px;
+	height: 50px;
+	line-height: 50px;
+}
+nav .container {
+	overflow: hidden;
+	height: 50px;
+	width: 1150px;
+}
+nav .container img {
+	width: 120px;
+}
+nav .container a {
+	color: #aaa;
+	padding: 0 10px;
+}
+nav .container a:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+nav .nav-input {
+	border: none;
+	border-radius: 20px;
+	background: #aaa;
+	border: 1px solid #aaa;
+	margin: 0;
+	margin-left: 10px;
+	transition: none;
+	/*transition: all 1s;*/
+
+}
+
+nav .nav-input:hover{
+	background: #fff;
+	
+}
+nav .nav-input:focus{
+	background: #fff;
+}
+.back {
+	margin-left: 20px;
+	color: #aaa;
+	padding: 0 10px;
+	background: #333;
+	cursor: pointer;
+}
+.logo{
+	display: inline-block;
+	color: #80bd01;
+	font-size: 36px;
+	float: left;
+	margin-left: 10px;
+	font-style: italic;
+}
+.logo i {
+	color: #708a00;
+	font-size: 28px;
+}
